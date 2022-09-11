@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Oswald:wght@700&display=swap');
+
+body {
+    font-weight: 700;
+    font-family: 'Cormorant SC', serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.foto {
+    width: 100%;
+}
+
+.foto-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.menu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 20%;
+    float: left;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.navigation {
+    width: 100%;
+    margin-bottom: 140px;
+}
+
+.menu a, .books-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover, .books-list a:hover {
+    border-bottom: 2px solid black;
+}
+
+.headers {
+    padding-left: 1%;
+    width: 100%;
+    float: left;
+}
+
+.text {
+    width: 98%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 120%;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.background {
+    background-color: black;
+    color: white;
+}
+
+.master-img {
+    float: left;
+    margin: 7px 7px 7px 0;
+}
+
+.social-networks {
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+
+.social-networks i {
+    margin: 10%;
+    font-size: 160%;
+    color: #3a3a3a;
+}
+
+.sign-up-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
