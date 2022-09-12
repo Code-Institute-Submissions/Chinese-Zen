@@ -43,6 +43,8 @@ This video guide tells us a little bit more about history of Zen, while the sect
 - Accessibility
     - I confirmed that the colors and fonts chosen are easy to read and accessible by running through lighthouse in devtools.
 
+![lighthouse](/assets/images/lighthouse.png#center)
+
 ## Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the GitHub repository navigate to the Settings tab.
