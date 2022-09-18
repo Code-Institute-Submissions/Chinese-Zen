@@ -60,6 +60,7 @@ body {
     font-size: 120%;
     text-align: justify;
     text-indent: 20px;
+    hyphens: auto;
 }
 
 .background {
@@ -148,6 +149,18 @@ body {
         text-align: center;
     }
 
+    .text {
+        width: 98%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 1%;
+        padding-right: 1%;
+        font-size: 100%;
+        text-align: justify;
+        text-indent: 20px;
+        hyphens: auto;
+    }
+
     .video {
         height: 200px;
         width: 80%;
@@ -177,6 +190,7 @@ body {
         font-size: 100%;
         text-align: justify;
         text-indent: 20px;
+        hyphens: auto;
     }
 
     .img-left {
