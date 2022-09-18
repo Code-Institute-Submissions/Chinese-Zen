@@ -161,6 +161,20 @@ body {
         hyphens: auto;
     }
 
+    .img-left {
+        width: 400px;
+        height: 400px;
+        float: left;
+        margin: 15px 15px 15px 15px;
+    }
+    
+    .img-right {
+        width: 400px;
+        height: 250px;
+        float: right;
+        margin: 15px 15px 15px 15px;
+    }
+
     .video {
         height: 200px;
         width: 80%;
