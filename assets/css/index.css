@@ -3,11 +3,11 @@
 body {
     font-weight: 700;
     font-family: 'Cormorant SC', serif;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 .foto {
+    padding-top: 30px;
+    padding-bottom: 50px;
     width: 100%;
 }
 
@@ -19,38 +19,36 @@ body {
 
 .logo {
     position: absolute;
-    bottom: 8px;
+    bottom: 50px;
     left: 16px;
 }
 
+.navigation {
+    padding-bottom: 80px;
+    width: 100%;
+}
+
 .menu {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 25px;
     width: 20%;
     float: left;
     text-align: center;
-    background-color: white;
-    color: black;
 }
 
-.navigation {
-    width: 100%;
-    margin-bottom: 140px;
-}
-
-.menu a, .books-list a {
+.menu a {
     text-decoration: none;
     color: black;
 }
 
-.menu a:hover, .books-list a:hover {
+.menu a:hover {
     border-bottom: 2px solid black;
 }
 
 .headers {
-    padding-left: 1%;
-    width: 100%;
-    float: left;
+    display: block;
+    font-size: 180%;
+    margin-bottom: 0;
+    font-weight: bold;
 }
 
 .text {
@@ -69,9 +67,50 @@ body {
     color: white;
 }
 
-.master-img {
+.img-left {
+    width: 400px;
+    height: 400px;
     float: left;
-    margin: 7px 7px 7px 0;
+    margin: 15px 15px 15px 15px;
+}
+
+.img-right {
+    width: 400px;
+    height: 250px;
+    float: right;
+    margin: 15px 15px 15px 15px;
+}
+
+.books-list {
+    text-align: center;
+    width: 98%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.background a {
+    text-decoration: none;
+    color: white;
+}
+
+.background a:hover {
+    border-bottom: 2px solid white;
+}
+
+.video {
+    width: 560px;
+}
+
+.sign-up-form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .social-networks {
@@ -83,11 +122,15 @@ body {
 .social-networks i {
     margin: 10%;
     font-size: 160%;
-    color: #3a3a3a;
+    color: black;
 }
 
-.sign-up-form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media only screen and (max-width: 500px) {
+    .headers {
+        display: block;
+        font-size: 180%;
+        margin-bottom: 0;
+        font-weight: bold;
+        text-align: center;
+    }
 }
