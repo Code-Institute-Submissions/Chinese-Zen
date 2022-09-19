@@ -80,7 +80,7 @@ This website is designed for people who want to know the most important facts in
 ![lighthouse](/Readme-content/lighthouse.png)
 
 ## Personal testing
-- The website was created and tested on Google Chrome and Microsoft Edge and works as expected. For testing on mobiles I used the Google Dev Tools. There is one bug on the small screens, the image in the second section isn't centered.
+- The website was created and tested on Google Chrome and Microsoft Edge and works as expected. For testing on mobiles I used the Google Dev Tools. There are two bugs. The image in the second section isn't centered only on small screens. Favicon image doesn't show up only on git hub pages.
 
 ## Deployment
 - The project was deployed to GitHub pages. The steps to deploy are as follows:
